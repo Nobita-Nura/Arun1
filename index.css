@@ -1,0 +1,226 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    background-color:black;
+}
+.dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+
+.bar{
+    display: flex;
+    gap: 19px;
+    
+}
+.bar  p{
+    color:white;
+    font-size: 40px;
+}
+
+main{
+    width: 100%;
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.foryou{
+    width: 100%;
+    /* min-height: 100vh; */
+    height:auto;
+    background-color: black;
+}
+.vid{
+    width:100%;
+    height: auto;
+}
+.click{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+}
+.reg{
+    font-size: 50px;
+}
+.click a{
+    transition: 1s;
+    font-size: 30px;
+}
+a:hover{
+    font-size: 40px;
+    text-shadow: 0 10px 20px lightblue;
+}
+hr{
+    position: relative;
+    top: 20px;
+    background-color: black;
+    
+ }
+ .hr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2px;
+ }
+ footer{
+    display: flex;
+    justify-content: center;
+ }
+ .contect{
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    background-color:black;
+    color: beige;
+    height: 30vh;
+    border-radius: 20px;
+    min-height: 70vh;
+ }
+ .mentor{
+    font-size: 30px;
+    margin-top: 10px;
+ }  
+ .contect2{
+    padding: 20px;
+    font-size: 46px;
+    float:left;
+    margin-left: 20px;
+ }
+ .contect2 p{
+    margin-left: 70px;
+ }
+ .mail {
+    margin: 10px;
+ }
+ .whatsapp{
+    margin: 10px;
+ }
+ .Instagram{
+    margin: 10px;
+ }
+@media all and (max-width:450px) {
+    
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    background-color:black;
+}
+
+    .foryou{
+        width: 100%;
+        /* min-height: 100vh; */
+        height: 40vh;
+        background-color: black;
+    }
+    .click{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* left: -30px; */
+        position: relative;
+        width: 100%;
+        color: whitesmoke;
+        background-color:black;
+    }
+    .reg{
+        font-size: 20px;
+    }
+    .click a{
+        transition: 1s;
+        font-size: 20px;
+    }
+    .bar  p{
+        color:white;
+        font-size: 40px;
+    }
+    
+.bar{
+    display: flex;
+    gap:10px;
+    position: relative;
+    
+}
+ hr{
+    
+    background-color: black;
+    width: 80%;
+ }
+ .hr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+ }
+ .mentor{
+    font-size: 30px;
+    margin-top: 10px;
+    
+ }
+ .contect2{
+    padding: 20px;
+    font-size: 20px;
+    float:left;
+    margin-left: 15px;
+    
+ }
+ .mail {
+    margin: 10px;
+    margin-left: 0px;   
+ }
+ .whatsapp{
+    margin: 10px;
+    margin-left: 0px;
+ }
+ .Instagram{
+    margin: 10px;
+    margin-left: 0px;
+ }
+ .contect{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    color: beige;
+    height: 30vh;
+    border-radius: 20px;
+    min-height: 40vh;
+ }
+
+.contect2 p{
+    background-color:black;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+}
